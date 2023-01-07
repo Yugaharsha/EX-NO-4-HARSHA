@@ -1,0 +1,16 @@
+n=int(input("enter the number"))
+b=0;D=0
+while(n>0):
+    r=n%2
+    b=(b*10)+r
+    n=n//2
+while(b>0):
+    r=b%10
+    b=b//10
+    D=(D*10)+r
+print("decimal number:",D)
+
+
+output:
+enter the number1234
+decimal number: 1001101001
